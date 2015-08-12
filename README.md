@@ -1,0 +1,1 @@
+# ghq fish completion
