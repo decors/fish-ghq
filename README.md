@@ -1,5 +1,7 @@
 # ghq fish completion
 
+[ghq](https://github.com/motemen/ghq) completion for fish shell
+
 ## Installation
 
     curl -L https://raw.github.com/decors/ghq-fish-completion/master/ghq.fish --create-dirs -o ~/.config/fish/completions/ghq.fish
