@@ -4,7 +4,7 @@
 
 ## Installation
 
-    curl -L https://raw.github.com/decors/ghq-fish-completion/master/ghq.fish --create-dirs -o ~/.config/fish/completions/ghq.fish
+    curl -L https://raw.github.com/decors/ghq-fish-completion/master/completions/ghq.fish --create-dirs -o ~/.config/fish/completions/ghq.fish
 
 ## Example
 
