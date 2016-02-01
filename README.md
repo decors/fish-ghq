@@ -7,10 +7,12 @@
     curl -L https://raw.github.com/decors/ghq-fish-completion/master/completions/ghq.fish --create-dirs -o ~/.config/fish/completions/ghq.fish
 
 * [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish)
-      omf install https://github.com/decors/ghq-fish-completion
+
+        omf install https://github.com/decors/ghq-fish-completion
 
 * [fisherman](https://github.com/fisherman/fisherman)
-      fisher install decors/ghq-fish-completion
+
+        fisher install decors/ghq-fish-completion
 
 ## Example
 
