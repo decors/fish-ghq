@@ -17,10 +17,10 @@
 ## Example
 
 ### Subcommands
-![補完1](https://raw.githubusercontent.com/wiki/decors/ghq-fish-completion/images/ss1.png)
+![補完1](https://raw.githubusercontent.com/decors/various/master/images/ghq-screenshot1.png)
 
-### Help topics
-![補完2](https://raw.githubusercontent.com/wiki/decors/ghq-fish-completion/images/ss2.png)
+### Help subcommands
+![補完2](https://raw.githubusercontent.com/decors/various/master/images/ghq-screenshot2.png)
 
 ### Repositories
-![補完3](https://raw.githubusercontent.com/wiki/decors/ghq-fish-completion/images/ss3.png)
+![補完3](https://raw.githubusercontent.com/decors/various/master/images/ghq-screenshot3.png)
