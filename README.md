@@ -4,15 +4,16 @@
 
 ## Installation
 
-    curl -L https://raw.github.com/decors/fish-ghq/master/completions/ghq.fish --create-dirs -o ~/.config/fish/completions/ghq.fish
+    curl -L https://raw.github.com/decors/fish-ghq/master/completions/ghq.fish \
+      --create-dirs -o ~/.config/fish/completions/ghq.fish
 
-* [oh-my-fish](https://github.com/oh-my-fish/oh-my-fish)
+[_Fisherman_](https://github.com/fisherman/fisherman)
 
-        omf install https://github.com/decors/fish-ghq
+    fisher install decors/fish-ghq
 
-* [fisherman](https://github.com/fisherman/fisherman)
+[_Oh My Fish_](https://github.com/oh-my-fish/oh-my-fish)
 
-        fisher install decors/fish-ghq
+    omf install https://github.com/decors/fish-ghq
 
 ## Example
 
