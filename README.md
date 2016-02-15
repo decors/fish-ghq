@@ -15,7 +15,7 @@ With [Fisherman](https://github.com/fisherman/fisherman)
 fisher install decors/fish-ghq
 ```
 
-## Complition
+## Completions
 
 ### Subcommands
 ![補完1](https://raw.githubusercontent.com/decors/various/master/images/ghq-screenshot1.png)
