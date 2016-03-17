@@ -1,26 +1,26 @@
 function __fish_ghq_needs_command
-  set cmd (commandline -opc)
-  if [ (count $cmd) -eq 1 -a $cmd[1] = "ghq" ]
-    return 0
-  end
-  return 1
+    set cmd (commandline -opc)
+    if [ (count $cmd) -eq 1 -a $cmd[1] = "ghq" ]
+        return 0
+    end
+    return 1
 end
 
 function __fish_ghq_using_command
-  set cmd (commandline -opc)
-  if [ (count $cmd) -gt 1 ]
-    if [ $argv[1] = $cmd[2] ]
-      return 0
+    set cmd (commandline -opc)
+    if [ (count $cmd) -gt 1 ]
+        if [ $argv[1] = $cmd[2] ]
+            return 0
+        end
     end
-  end
-  return 1
+    return 1
 end
 
 # Help
 function __fish_ghq_help_topics
-  for c in get list look import root
-    printf "%s\thelp topic\n" $c
-  end
+    for c in get list look import root
+        printf "%s\thelp topic\n" $c
+    end
 end
 
 complete -f -c ghq -n "__fish_ghq_needs_command" -a help -d "Shows a list of commands or help for one command"
