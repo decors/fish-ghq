@@ -19,14 +19,14 @@ fisher install decors/fish-ghq
 
 ## Keybinding
 
-- Ctrl-g: repository finder using [peco] or [fzf]
+- Ctrl-g: repository finder using [fzf], [peco] or [percol].
 
 ## Variables
 
 ### `GHQ_FILTER`
 
-If you use [fzf], run `set -U GHQ_FILTER fzf`.
-Default filter is peco if variable is not set.
+If you want to change filter, run `set -U GHQ_FILTER peco (or percol)`.
+Default filter is fzf if variable is not set.
 
 ## Completions
 
@@ -41,3 +41,4 @@ Default filter is peco if variable is not set.
 
 [peco]:https://github.com/peco/peco
 [fzf]:https://github.com/junegunn/fzf
+[percol]:https://github.com/mooz/percol

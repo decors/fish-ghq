@@ -1,4 +1,4 @@
-bind \cg '__ghq_filter'
+bind \cg '__ghq_search'
 if bind -M insert > /dev/null ^ /dev/null
-    bind -M insert \cg '__ghq_filter'
+    bind -M insert \cg '__ghq_search'
 end
