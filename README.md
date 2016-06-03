@@ -4,13 +4,6 @@ completions and keybinding for [ghq](https://github.com/motemen/ghq)
 
 ## Install
 
-Only completions
-
-```fish
-curl -L https://raw.github.com/decors/fish-ghq/master/completions/ghq.fish \
-  --create-dirs -o ~/.config/fish/completions/ghq.fish
-```
-
 With [fisherman](https://github.com/fisherman/fisherman)
 
 ```fish
