@@ -16,9 +16,9 @@ fisher install decors/fish-ghq
 
 ## Variables
 
-### `GHQ_FILTER`
+### `GHQ_SELECTOR`
 
-If you want to change filter, run `set -U GHQ_FILTER peco (or percol)`.
+If you want to change selector, run `set -U GHQ_SELECTOR peco (or percol, fzf)`.
 Default filter is fzf if variable is not set.
 
 ## Completions
