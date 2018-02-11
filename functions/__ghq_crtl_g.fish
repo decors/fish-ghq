@@ -2,7 +2,7 @@ function __ghq_crtl_g -d 'Repository search'
     set -l selector
     [ -z "$GHQ_SELECTOR" ]; and set selector fzf; or set selector $GHQ_SELECTOR
     if [ "$selector" = fzf ]
-        functions -q __fzfcmd; and set selector __fzfcmd
+        functions -q __fzfcmd; and set selector (__fzfcmd)
     end
     set -l query (commandline -b)
     [ -n "$query" ]; and set flags --query="$query"; or set flags
