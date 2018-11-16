@@ -7,7 +7,7 @@ completions and keybinding for [ghq](https://github.com/motemen/ghq)
 With [fisherman](https://github.com/fisherman/fisherman)
 
 ```fish
-fisher install decors/fish-ghq
+fisher add decors/fish-ghq
 ```
 
 ## Keybinding
