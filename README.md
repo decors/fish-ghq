@@ -1,11 +1,14 @@
 # fish-ghq
 
-completions and keybinding for [ghq](https://github.com/motemen/ghq)
+completions and keybinding for [ghq]
 
 ## Install
 
-With [Fisher](https://github.com/jorgebucaran/fisher)
-
+* Install [ghq]
+* Install [fzf], [peco] or [percol]
+* Install [Fisher](https://github.com/jorgebucaran/fisher)
+* Install this plugin
+ 
 ```fish
 fisher add decors/fish-ghq
 ```
@@ -32,10 +35,11 @@ Default filter is fzf if variable is not set.
 ### Repositories
 ![補完3](https://raw.githubusercontent.com/decors/various/master/images/ghq-screenshot3.png)
 
-[peco]:https://github.com/peco/peco
-[fzf]:https://github.com/junegunn/fzf
-[percol]:https://github.com/mooz/percol
-
 ## License
 
 fish-ghq is MIT licensed. See [LICENSE](LICENSE) file for details.
+
+[ghq]:https://github.com/motemen/ghq
+[peco]:https://github.com/peco/peco
+[fzf]:https://github.com/junegunn/fzf
+[percol]:https://github.com/mooz/percol
