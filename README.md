@@ -5,23 +5,23 @@ completions and keybinding for [ghq]
 ## Install
 
 * Install [ghq]
-* Install [fzf], [peco] or [percol]
+* Install [fzf], [fzy], [peco] or [percol]
 * Install [Fisher](https://github.com/jorgebucaran/fisher)
 * Install this plugin
- 
+
 ```fish
 fisher add decors/fish-ghq
 ```
 
 ## Keybinding
 
-- Ctrl-g: repository finder using [fzf], [peco] or [percol].
+- Ctrl-g: repository finder using [fzf], [fzy], [peco] or [percol].
 
 ## Variables
 
 ### `GHQ_SELECTOR`
 
-If you want to change selector, run `set -U GHQ_SELECTOR peco (or percol, fzf)`.
+If you want to change selector, run `set -U GHQ_SELECTOR peco (or fzf, fzy, percol)`.
 Default filter is fzf if variable is not set.
 
 ## Completions
@@ -42,4 +42,5 @@ fish-ghq is MIT licensed. See [LICENSE](LICENSE) file for details.
 [ghq]:https://github.com/motemen/ghq
 [peco]:https://github.com/peco/peco
 [fzf]:https://github.com/junegunn/fzf
+[fzy]:https://github.com/jhawthorn/fzy
 [percol]:https://github.com/mooz/percol

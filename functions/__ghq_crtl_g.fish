@@ -7,7 +7,7 @@ function __ghq_crtl_g -d 'Repository search'
     set -l query (commandline -b)
     [ -n "$query" ]; and set flags --query="$query"; or set flags
     switch "$selector"
-        case fzf __fzfcmd peco percol
+        case fzf __fzfcmd peco percol fzy
             ghq list --full-path | eval "$selector" $flags | read select
         case \*
             printf "\nERROR: plugin-ghq is not support '$selector'.\n"
