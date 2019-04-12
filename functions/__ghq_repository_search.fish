@@ -1,4 +1,4 @@
-function __ghq_crtl_g -d 'Repository search'
+function __ghq_repository_search -d 'Repository search'
     set -l selector
     [ -z "$GHQ_SELECTOR" ]; and set selector fzf; or set selector $GHQ_SELECTOR
     set -l query (commandline -b)
