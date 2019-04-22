@@ -35,6 +35,12 @@ fzf example :
 set -g GHQ_SELECTOR_OPTS "--no-sort --reverse --ansi --color bg+:13,hl:3,pointer:7"
 ```
 
+peco example : 
+
+```fish
+set -g GHQ_SELECTOR_OPTS "--layout=top-down --prompt='ghq>'"
+```
+
 ## Completions
 
 ### Subcommands
