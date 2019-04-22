@@ -24,23 +24,15 @@ fisher add decors/fish-ghq
 Default selector is `fzf`. If you want to change selector, run
 
 ```fish
-set -U GHQ_SELECTOR peco (or fzf, fzy, percol)
+set -g GHQ_SELECTOR peco (or fzf, fzy, percol)
 ```
 
-## Selector Customizations
-
-| Selector | File | Variable |
-| ---- | ---- | ---- |
-| fzf | | [FZF_DEFAULT_OPTS](https://github.com/junegunn/fzf#environment-variables) |
-| peco | [~/.config/peco/config.json](https://github.com/peco/peco#configuration-file) | |
-| percol | [~/.percol.d/rc.py](https://github.com/mooz/percol#configuration) | |
+### `GHQ_SELECTOR_OPTS`
 
 fzf example :
 
 ```fish
-set -x FZF_DEFAULT_OPTS '
-      --no-sort --reverse --ansi --color bg+:13,hl:3,pointer:7
-    '
+set -g GHQ_SELECTOR_OPTS "--no-sort --reverse --ansi --color bg+:13,hl:3,pointer:7"
 ```
 
 ## Completions
