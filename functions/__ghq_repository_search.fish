@@ -4,6 +4,11 @@ function __ghq_repository_search -d 'Repository search'
     set -l selector_options
     [ -n "$GHQ_SELECTOR_OPTS" ]; and set selector_options $GHQ_SELECTOR_OPTS
 
+    if not type -qf $selector
+        printf "\nERROR: '$selector' not found.\n"
+        exit 1
+    end
+
     set -l query (commandline -b)
     [ -n "$query" ]; and set flags --query="$query"; or set flags
     switch "$selector"
