@@ -2,6 +2,10 @@
 
 completions and keybinding for [ghq]
 
+## Todo
+
+* Fix Keybinding conflict with [jethrokuan/fzf](https://github.com/jethrokuan/fzf)
+
 ## Install
 
 * Install [ghq]
