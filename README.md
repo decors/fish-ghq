@@ -28,7 +28,7 @@ fisher add decors/fish-ghq
 Default selector is `fzf`. If you want to change selector, run
 
 ```fish
-set -g GHQ_SELECTOR peco (or fzf, fzy, percol)
+set -g GHQ_SELECTOR peco (or fzf, fzf-tmux, fzy, percol)
 ```
 
 ### `GHQ_SELECTOR_OPTS`
@@ -39,7 +39,7 @@ fzf example :
 set -g GHQ_SELECTOR_OPTS "--no-sort --reverse --ansi --color bg+:13,hl:3,pointer:7"
 ```
 
-peco example : 
+peco example :
 
 ```fish
 set -g GHQ_SELECTOR_OPTS "--layout=top-down --prompt='ghq>'"
