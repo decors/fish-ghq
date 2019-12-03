@@ -9,7 +9,7 @@ completions and keybinding for [ghq]
 ## Install
 
 * Install [ghq]
-* Install [fzf], [fzy], [peco] or [percol]
+* Install [fzf], [fzy], [peco], [percol] or [skim]
 * Install [Fisher](https://github.com/jorgebucaran/fisher)
 * Install this plugin
 
@@ -19,7 +19,7 @@ fisher add decors/fish-ghq
 
 ## Keybinding
 
-* Ctrl-g: repository finder using [fzf], [fzy], [peco] or [percol].
+* Ctrl-g: repository finder using [fzf], [fzy], [peco], [percol] or [skim].
 
 ## Variables
 
@@ -28,7 +28,7 @@ fisher add decors/fish-ghq
 Default selector is `fzf`. If you want to change selector, run
 
 ```fish
-set -g GHQ_SELECTOR peco (or fzf, fzf-tmux, fzy, percol)
+set -g GHQ_SELECTOR peco (or fzf, fzf-tmux, fzy, percol, skim)
 ```
 
 ### `GHQ_SELECTOR_OPTS`
@@ -68,3 +68,4 @@ fish-ghq is MIT licensed. See [LICENSE](LICENSE) file for details.
 [fzf]:https://github.com/junegunn/fzf
 [fzy]:https://github.com/jhawthorn/fzy
 [percol]:https://github.com/mooz/percol
+[skim]:https://github.com/lotabout/skim
