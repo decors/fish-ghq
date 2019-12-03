@@ -28,7 +28,7 @@ fisher add decors/fish-ghq
 Default selector is `fzf`. If you want to change selector, run
 
 ```fish
-set -g GHQ_SELECTOR peco (or fzf, fzf-tmux, fzy, percol, skim)
+set -g GHQ_SELECTOR peco (or fzf, fzf-tmux, fzy, percol, sk)
 ```
 
 ### `GHQ_SELECTOR_OPTS`
