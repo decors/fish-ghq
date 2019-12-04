@@ -12,7 +12,7 @@ function __ghq_repository_search -d 'Repository search'
     set -l query (commandline -b)
     [ -n "$query" ]; and set flags --query="$query"; or set flags
     switch "$selector"
-        case fzf fzf-tmux peco percol fzy
+        case fzf fzf-tmux peco percol fzy sk
             ghq list --full-path | eval "$selector" $selector_options $flags | read select
         case \*
             printf "\nERROR: plugin-ghq is not support '$selector'.\n"
