@@ -6,7 +6,7 @@ function __ghq_repository_search -d 'Repository search'
 
     if not type -qf $selector
         printf "\nERROR: '$selector' not found.\n"
-        exit 1
+        return 1
     end
 
     set -l query (commandline -b)
