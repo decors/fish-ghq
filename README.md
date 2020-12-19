@@ -14,7 +14,7 @@ completions and keybinding for [ghq]
 * Install this plugin
 
 ```fish
-fisher add decors/fish-ghq
+fisher install decors/fish-ghq
 ```
 
 ## Keybinding
