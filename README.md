@@ -42,7 +42,7 @@ set -g GHQ_SELECTOR_OPTS "--no-sort --reverse --ansi --color bg+:13,hl:3,pointer
 peco example :
 
 ```fish
-set -g GHQ_SELECTOR_OPTS "--layout=top-down --prompt='ghq>'"
+set -g GHQ_SELECTOR_OPTS --layout=top-down --prompt='ghq>'
 ```
 
 ## Completions
